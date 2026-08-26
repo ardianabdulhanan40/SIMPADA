@@ -1,0 +1,15 @@
+Letakkan file APK hasil build Flutter kamu di folder ini
+dengan nama persis: app-release.apk
+
+Cara mendapatkannya dari project Flutter:
+  flutter build apk --release
+
+File hasilnya biasanya ada di:
+  build/app/outputs/flutter-apk/app-release.apk
+
+Salin file tersebut ke folder public/downloads/ pada project Next.js ini,
+lalu hapus (atau abaikan) file .txt ini.
+
+Setelah itu, tombol "Unduh Aplikasi" di halaman utama akan otomatis
+mengarah ke file APK tersebut karena sudah diatur ke path:
+  /downloads/app-release.apk

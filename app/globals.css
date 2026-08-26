@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #EEF2F6;
+  color: #16273D;
+}
+
+.blueprint-bg {
+  background-color: #EEF2F6;
+  background-image:
+    linear-gradient(rgba(30, 58, 95, 0.09) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(30, 58, 95, 0.09) 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+
+.dashed-wire {
+  stroke-dasharray: 6 6;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+:focus-visible {
+  outline: 2px solid #C9821F;
+  outline-offset: 3px;
+}
