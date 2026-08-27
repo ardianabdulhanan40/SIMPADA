@@ -5,7 +5,7 @@ import PhoneSchematic from "@/components/PhoneSchematic";
 const APP_NAME = "SIMPADA";
 const APP_TAGLINE = "Sistem Monitoring Penyakit Daun Padi";
 const APP_VERSION = "v1.0.0";
-const APK_FILE_NAME = "app-release.apk";
+const APK_FILE_NAME = "SIMPADA.apk";
 const APK_PATH = `/downloads/${APK_FILE_NAME}`;
 
 // 5 Langkah Alur Diagnosis Aplikasi
